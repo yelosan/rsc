@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="https://rsc.YourOnly.One/favicon/yugenbard/mstile-150x150.png?fmgy=TimmieIsMySong"/>
+            <square310x310logo src="https://rsc.YourOnly.One/favicon/yugenbard/mstile-310x310.png?fmgy=TimmieIsMySong"/>
+            <TileColor>#b91d47</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
