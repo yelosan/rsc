@@ -17,9 +17,9 @@
 
 /***
 	* paninap-fonts.css Copyright © 2003-2021 JC John Sese Cuneta
-	* 
+	*
 	* Licenses: [1] MIT/Expat License; [2] MPL v2.0; [3] LGPLv3
-	* 
+	*
 	* LICENSE: MIT License / Expat License
 	*   Permission is hereby granted, free of charge, to any person obtaining a copy
 	*   of this software and associated documentation files (the "Software"), to deal
@@ -27,10 +27,10 @@
 	*   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 	*   copies of the Software, and to permit persons to whom the Software is
 	*   furnished to do so, subject to the following conditions:
-	* 
+	*
 	*   The above copyright notice and this permission notice shall be included in all
 	*   copies or substantial portions of the Software.
-	* 
+	*
 	*   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 	*   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 	*   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -125,7 +125,8 @@
 		/* font-variant-alternates: historical-forms; */ /* hist */
 		font-variant: normal oldstyle-nums tabular-nums slashed-zero; /* Set in case some browsers does not recognise the above specific settings. */
 		font-variant-emoji: emoji;
-		font-kerning: normal;
+		-webkit-font-kerning: normal;
+		        font-kerning: normal;
 
 		font-optical-sizing: auto;
 		text-rendering: geometricPrecision;
@@ -144,6 +145,37 @@
 /***************************
 ** END: :root, html, body **
 ***************************/
+
+/***************
+** BGN: SHIMS **
+***************/
+	/* BIDI HTML5 and CSS3 "isolate" */
+	[dir="ltr"],
+	bdo[dir="ltr"],
+	:dir(ltr) {
+		direction: ltr;
+	}
+	[dir="rtl"],
+	bdo[dir="rtl"],
+	:dir(rtl) {
+		direction: rtl;
+	}
+	/* As of 2021-02-08: no longer needed, remove this in our file later
+	[dir="ltr"], [dir="rtl"]
+	:dir(ltr), :dir(rtl) {
+		unicode-bidi: -webkit-isolate;
+		unicode-bidi: -moz-isolate;
+		unicode-bidi: isolate;
+	}
+	bdo[dir="ltr"], bdo[dir="rtl"],
+	:dir(ltr), :dir(rtl) {
+		unicode-bidi: -moz-isolate-override;
+		unicode-bidi: isolate-override;
+	}
+	*/
+/***************
+** END: SHIMS **
+***************/
 
 /************************
 ** BGN: Default styles **
@@ -464,7 +496,7 @@
 			*   declared in <html> element. Otherwise we have to be very specific in CSS overrides like in MathJax case.
 			*
 			* Best way to include our choice of fonts is to manually override all font-family declarations of each theme, per site.
-		***/ 
+		***/
 		:lang(en), :lang(en-oxendict),
 		:lang(en-PH), :lang(en-PH-oxendict) {
 			direction: ltr;
@@ -748,35 +780,4 @@
 		}
 /***************
 ** END: FONTS **
-***************/
-
-/***************
-** BGN: SHIMS **
-***************/
-	/* BIDI HTML5 and CSS3 "isolate" */
-	[dir="ltr"],
-	bdo[dir="ltr"],
-	:dir(ltr) {
-		direction: ltr;
-	}
-	[dir="rtl"],
-	bdo[dir="rtl"],
-	:dir(rtl) {
-		direction: rtl;
-	}
-	/* As of 2021-02-08: no longer needed, remove this in our file later
-	[dir="ltr"], [dir="rtl"]
-	:dir(ltr), :dir(rtl) {
-		unicode-bidi: -webkit-isolate;
-		unicode-bidi: -moz-isolate;
-		unicode-bidi: isolate;
-	}
-	bdo[dir="ltr"], bdo[dir="rtl"],
-	:dir(ltr), :dir(rtl) {
-		unicode-bidi: -moz-isolate-override;
-		unicode-bidi: isolate-override;
-	}
-	*/
-/***************
-** END: SHIMS **
 ***************/
