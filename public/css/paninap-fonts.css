@@ -745,22 +745,12 @@
 		[class*="emoji-" i], [class*="-emoji" i],
 		*/
 		[class~="smiley" i], [class~="emoticon" i], [class~="emoji" i] {
-			/* No longer needed in current usage; our old settings
-			display: inline !important;
-			background: none !important;
-			border: none !important;
-			box-shadow: none !important;
-			*/
+			display: inline-block;
 			height: 1em; /* Twemoji suggestion */
 			width: 1em; /* Twemoji suggestion */
 			margin: 0 .05em 0 .1em; /* Twemoji suggestion */
-			/* margin: 0 .07em 0 .1em*/ /* Our old setting */
-			/* margin: 0 !important; */
-			/* padding: 0; */ /* Our old setting */
 			/* vertical-align: -0.1em; */ /* Twemoji suggestion */
-			/* vertical-align: text-bottom !important; */ /* Our old setting */
 			vertical-align: auto; /* On our tests, it's better to set it to auto */
-			/* vertical-align: text-bottom !important; */
 			font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
 			font-variant-emoji: emoji;
 			font-style: normal;
