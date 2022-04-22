@@ -153,15 +153,6 @@
 /***************
 ** BGN: SHIMS **
 ***************/
-  /*** BGN: hide content ***/
-    details summary {
-      cursor: pointer;
-    }
-
-    details summary > * {
-      display: inline;
-    }
-  /*** END: hide content ***/
 /***************
 ** END: SHIMS **
 ***************/
@@ -541,6 +532,54 @@
 
 /******************************************************************************/
 /******************************************************************************/
+
+/*******************
+** BGN: ACCORDION **
+*******************/
+  /* Usually used for FAQ and spoilers; show/hide */
+  details {
+    border: 1px solid;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 0.5em 0;
+  }
+  details > summary {
+    display: list-item;
+    font-weight: bold;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0 0.5em;
+  }
+  details > summary::marker {
+    color: hsla(0deg, 100%, 50%, 100%);
+    color: hwb(0deg 0% 0% / 100%);
+    content: "Q: ";
+    font-weight: bold;
+  }
+  details > div > p:first-of-type {
+    display: list-item;
+    list-style-position: inside;
+  }
+  details > div > p:first-of-type::marker {
+    color: hsla(240deg, 100%, 50%, 100%);
+    color: hwb(240deg 0% 0% / 100%);
+    content: "A: ";
+    font-weight: bold;
+  }
+  details > div {
+    display: inline-block;
+    margin: 0.7em 0 0 0;
+    padding: 0 1.7em;
+  }
+  /*
+    details[open] > summary {
+    }
+  */
+/*******************
+** END: ACCORDION **
+*******************/
 
 /*******************
 ** BGN: CITATIONS **
