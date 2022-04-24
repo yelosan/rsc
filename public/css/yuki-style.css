@@ -558,11 +558,11 @@
     content: "Q: ";
     font-weight: bold;
   }
-  details > div > p:first-of-type {
+  details > div.faq > p:first-of-type {
     display: list-item;
     list-style-position: inside;
   }
-  details > div > p:first-of-type::marker {
+  details > div.faq > p:first-of-type::marker {
     color: hsla(240deg, 100%, 50%, 100%);
     color: hwb(240deg 0% 0% / 100%);
     content: "A: ";
