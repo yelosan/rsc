@@ -552,7 +552,7 @@
     margin: 0;
     padding: 0 0.5em;
   }
-  details > summary::marker {
+  details > summary.faq::marker {
     color: hsla(0deg, 100%, 50%, 100%);
     color: hwb(0deg 0% 0% / 100%);
     content: "Q: ";
