@@ -541,7 +541,6 @@
     border: 1px solid;
     border-radius: 7px;
     box-shadow: 1px 1px 1px;
-    cursor: pointer;
     margin: 10px 0;
     padding: 0.5em 0;
   }
@@ -549,6 +548,7 @@
     display: list-item;
     font-weight: bold;
     list-style-position: inside;
+    cursor: pointer;
     margin: 0;
     padding: 0 0.5em;
   }
@@ -556,6 +556,18 @@
     color: hsla(0deg, 100%, 50%, 100%);
     color: hwb(0deg 0% 0% / 100%);
     content: "Q: ";
+    font-weight: bold;
+  }
+  :lang(ja) details > summary.faq::marker {
+    color: hsla(0deg, 100%, 50%, 100%);
+    color: hwb(0deg 0% 0% / 100%);
+    content: "質問： ";
+    font-weight: bold;
+  }
+  :lang(ko) details > summary.faq::marker {
+    color: hsla(0deg, 100%, 50%, 100%);
+    color: hwb(0deg 0% 0% / 100%);
+    content: "문제: ";
     font-weight: bold;
   }
   details > div.faq > p:first-of-type {
@@ -566,6 +578,18 @@
     color: hsla(240deg, 100%, 50%, 100%);
     color: hwb(240deg 0% 0% / 100%);
     content: "A: ";
+    font-weight: bold;
+  }
+  :lang(ja) details > div.faq > p:first-of-type::marker {
+    color: hsla(240deg, 100%, 50%, 100%);
+    color: hwb(240deg 0% 0% / 100%);
+    content: "答え： ";
+    font-weight: bold;
+  }
+  :lang(ko) details > div.faq > p:first-of-type::marker {
+    color: hsla(240deg, 100%, 50%, 100%);
+    color: hwb(240deg 0% 0% / 100%);
+    content: "답변: ";
     font-weight: bold;
   }
   details > div {
