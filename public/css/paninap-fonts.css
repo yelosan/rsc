@@ -737,27 +737,29 @@
 		}
 
 	/* Unicode emoji */
-		/* We need to add !important to guarantee default third-party theme styles won't affect our emojis. */
+		/* We may need to add !important to guarantee default third-party theme styles won't affect our emojis. */
 		/*
-		[class^="smiley-" i], [class$="-smiley" i],
-		[class^="emoticon-" i], [class$="-emoticon" i],
-		[class^="emoji-" i], [class$="-emoji" i],
-		[class*="emoji-" i], [class*="-emoji" i],
+		html body [class^="smiley-" i], html body [class$="-smiley" i],
+		html body [class^="emoticon-" i], html body [class$="-emoticon" i],
+		html body [class^="emoji-" i], html body [class$="-emoji" i],
+		html body [class*="emoji-" i], html body [class*="-emoji" i],
 		*/
-		[class~="smiley" i], [class~="emoticon" i], [class~="emoji" i] {
+		html body [class~="smiley" i],
+		html body [class~="emoticon" i],
+		html body [class~="emoji" i] {
 			display: inline-block;
 			height: 1em; /* Twemoji suggestion */
 			width: 1em; /* Twemoji suggestion */
 			margin: 0 .05em 0 .1em; /* Twemoji suggestion */
 			/* vertical-align: -0.1em; */ /* Twemoji suggestion */
-			vertical-align: auto; /* On our tests, it's better to set it to auto */
+			vertical-align: initial;
 			font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
 			font-variant-emoji: emoji;
 			font-style: normal;
 			font-synthesis: none;
 			font-weight: normal;
 		}
-		.unicode_emoji { /* usage: <span class="unicode_emoji">emoji_here</span> */
+		html body .unicode_emoji { /* usage: <span class="unicode_emoji">emoji_here</span> */
 			font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
 			font-variant-emoji: emoji;
 			/* font-size: larger; */
@@ -765,7 +767,7 @@
 			font-synthesis: none;
 			font-weight: normal;
 		}
-		.unicode_emoji_test {
+		html body .unicode_emoji_test {
 			font-size: 2.5rem;
 		}
 /***************
