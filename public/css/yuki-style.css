@@ -1641,6 +1641,11 @@
 /********************
 ** BGN: Link icons **
 ********************/
+[class^="icon_"] {
+  display: inline-block;
+  text-decoration: none;
+  white-space: pre-wrap;
+}
 .icon_external::after {
   content: "\20\1F517" /* 🔗 */
 }
