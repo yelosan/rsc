@@ -1637,3 +1637,40 @@
 /*************************************************
 ** END: Colours for Backgrounds, Lists, & Texts **
 *************************************************/
+
+/********************
+** BGN: Link icons **
+********************/
+.icon_external::after {
+  content: "\1F517" /* 🔗 */
+}
+.icon_chat::after {
+  content: "\1F4AC" /* 💬 */
+}
+.icon_ftp::after {
+  content: "\23EC" /* ⏬ */
+}
+.icon_mail::after {
+  content: "\1F4E7" /* 📧 */
+}
+.icon_magnet::after {
+  content: "\1F9F2" /* 🧲 */
+}
+.icon_remote::after {
+  content: "\1F4BB" /* 💻 */
+}
+.icon_tel::after {
+  content: "\260E\FE0F" /* ☎️ */
+}
+.icon_books::after {
+  content: "\1F4D6" /* 📖 */
+}
+.icon_docs::after {
+  content: "\1F4C4" /* 📄 */
+}
+.icon_zip::after {
+  content: "\1F5DC\FE0F" /* 🗜️ */
+}
+/********************
+** END: Link icons **
+********************/
