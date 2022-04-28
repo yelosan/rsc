@@ -1641,7 +1641,7 @@
 /********************
 ** BGN: Link icons **
 ********************/
-[class^="icon_"] {
+[class^="icon_"]::after {
   display: inline-block;
   text-decoration: none;
   white-space: pre-wrap;
