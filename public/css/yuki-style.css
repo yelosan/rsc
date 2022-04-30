@@ -154,6 +154,7 @@
 ** BGN: OVERRIDES **
 *******************/
 address {
+  display: inline-block;
   font-style: normal;
 }
 /*******************
