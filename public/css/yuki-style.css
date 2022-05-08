@@ -623,165 +623,19 @@ address {
   /* END: remove theme style */
 
   /* BGN: set our own style */
-    /* override themes -- use our own "Attribution" styles instead see below
-    .cite {
+    /* override themes -- use our own "Attribution" styles instead see below */
+    /* .cite {
       font-weight: bolder;
-    }
+    } */
+    /*
     .cite > cite {
       font-style: italic;
-    }
+    } */
+    /* quotation dash
     .cite > cite::before
-      content: "\2015"; /* quotation dash *
-    }
-    */
+      content: "\2015";
+    } */
   /* END: set our own style */
-
-  /* BGN: titles and inline quote punctuation marks */
-    /* See:
-            https://en.wikipedia.org/wiki/Quotation_mark
-            https://en.wikipedia.org/wiki/Guillemet
-            https://en.wikipedia.org/wiki/CJK_Symbols_and_Punctuation
-    */
-    /* BGN: For inline QUOTES */
-      :lang(en-PH) q, :lang(en-PH-oxendict) q,
-      :lang(phi) q, :lang(fil) q,
-      :lang(tbw) q, :lang(bku) q, :lang(hnn) q, :lang(tl) q, :lang(tgl) q,
-      :lang(tbw-Tagb) q, :lang(bku-Buhd) q, :lang(hnn-Hano) q, :lang(tl-Tglg) q, :lang(tgl-Tglg) q {
-        /* quotes: "｢" "｣" "⌜" "⌟"; */
-        quotes: "\FF62" "\FF63" "\231C" "\231F";
-      }
-
-      :lang(zh-Hans) q,
-      :lang(zh) q,
-      :lang(zh-Hant) q,
-      :lang(zh-Hans-HK) q,
-      :lang(zh-Hant-HK) q,
-      :lang(zh-Latn) q, :lang(zh-Latn-pinyin) q,
-      :lang(yue-jyutping) q, :lang(zh-yue-jyutping) q,
-      :lang(zh-Latn-tongyong) q,
-      :lang(zh-Latn-wadegile) q,
-      :lang(ja) q,
-      :lang(ja-Latn) q, :lang(ja-Latn-hepburn) q,
-      :lang(ja-Latn-hepburn-heploc) q, :lang(ja-Latn-heploc) q,
-      :lang(ja-Latn-hepburn-alalc97) q, :lang(ja-Latn-alalc97) q,
-      :lang(ko) q,
-      :lang(ko-Latn) q {
-        /* quotes: "「" "」" "『" "』"; */
-        quotes: "\300C" "\300D" "\300E" "\300F";
-      }
-    /* END: For inline QUOTES */
-
-    /* BGN: For TITLES */
-      :lang(en-PH) cite, :lang(en-PH-oxendict) cite,
-      :lang(phi) cite, :lang(fil) cite,
-      :lang(tbw) cite, :lang(bku) cite, :lang(hnn) cite, :lang(tl) cite, :lang(tgl) cite,
-      :lang(tbw-Tagb) cite, :lang(bku-Buhd) cite, :lang(hnn-Hano) cite, :lang(tl-Tglg) cite, :lang(tgl-Tglg) cite {
-        /* quotes: "«" "»" "‹" "›"; */
-        quotes: "\00AB" "\00BB" "\2039" "\203A";
-      }
-
-      :lang(zh-Hans) cite,
-      :lang(zh) cite,
-      :lang(zh-Hant) cite,
-      :lang(zh-Hans-HK) cite,
-      :lang(zh-Hant-HK) cite,
-      :lang(zh-Latn) cite, :lang(zh-Latn-pinyin) cite,
-      :lang(yue-jyutping) cite, :lang(zh-yue-jyutping) cite,
-      :lang(zh-Latn-tongyong) cite,
-      :lang(zh-Latn-wadegile) cite,
-      :lang(ja) cite,
-      :lang(ja-Latn) cite, :lang(ja-Latn-hepburn) cite,
-      :lang(ja-Latn-hepburn-heploc) cite, :lang(ja-Latn-heploc) cite,
-      :lang(ja-Latn-hepburn-alalc97) cite, :lang(ja-Latn-alalc97) cite,
-      :lang(ko) cite,
-      :lang(ko-Latn) cite {
-        /* quotes: "《" "》" "〈" "〉"; */
-        quotes: "\300A" "\300B" "\3008" "\3009";
-      }
-    /* END: For TITLES */
-
-    :lang(en-PH) q::before, :lang(en-PH-oxendict) q::before,
-    :lang(zh-Hans) q::before,
-    :lang(zh) q::before,
-    :lang(zh-Hant) q::before,
-    :lang(zh-Hans-HK) q::before,
-    :lang(zh-Hant-HK) q::before,
-    :lang(zh-Latn) q::before, :lang(zh-Latn-pinyin) q::before,
-    :lang(yue-jyutping) q::before, :lang(zh-yue-jyutping) q::before,
-    :lang(zh-Latn-tongyong) q::before,
-    :lang(zh-Latn-wadegile) q::before,
-    :lang(ja) q::before,
-    :lang(ja-Latn) q::before, :lang(ja-Latn-hepburn) q::before,
-    :lang(ja-Latn-hepburn-heploc) q::before, :lang(ja-Latn-heploc) q::before,
-    :lang(ja-Latn-hepburn-alalc97) q::before, :lang(ja-Latn-alalc97) q::before,
-    :lang(ko) q::before,
-    :lang(ko-Latn) q::before,
-    :lang(phi) q::before, :lang(fil) q::before,
-    :lang(tbw) q::before, :lang(bku) q::before, :lang(hnn) q::before, :lang(tl) q::before, :lang(tgl) q::before,
-    :lang(tbw-Tagb) q::before, :lang(bku-Buhd) q::before, :lang(hnn-Hano) q::before, :lang(tl-Tglg) q::before, :lang(tgl-Tglg) q::before,
-    :lang(en-PH) cite::before, :lang(en-PH-oxendict) cite::before,
-    :lang(zh-Hans) cite::before,
-    :lang(zh) cite::before,
-    :lang(zh-Hant) cite::before,
-    :lang(zh-Hans-HK) cite::before,
-    :lang(zh-Hant-HK) cite::before,
-    :lang(zh-Latn) cite::before, :lang(zh-Latn-pinyin) cite::before,
-    :lang(yue-jyutping) cite::before, :lang(zh-yue-jyutping) cite::before,
-    :lang(zh-Latn-tongyong) cite::before,
-    :lang(zh-Latn-wadegile) cite::before,
-    :lang(ja) cite::before,
-    :lang(ja-Latn) cite::before, :lang(ja-Latn-hepburn) cite::before,
-    :lang(ja-Latn-hepburn-heploc) cite::before, :lang(ja-Latn-heploc) cite::before,
-    :lang(ja-Latn-hepburn-alalc97) cite::before, :lang(ja-Latn-alalc97) cite::before,
-    :lang(ko) cite::before,
-    :lang(ko-Latn) cite::before,
-    :lang(phi) cite::before, :lang(fil) cite::before,
-    :lang(tbw) cite::before, :lang(bku) cite::before, :lang(hnn) cite::before, :lang(tl) cite::before, :lang(tgl) cite::before,
-    :lang(tbw-Tagb) cite::before, :lang(bku-Buhd) cite::before, :lang(hnn-Hano) cite::before, :lang(tl-Tglg) cite::before, :lang(tgl-Tglg) cite::before {
-      content: open-quote;
-    }
-
-    :lang(en-PH) q::after, :lang(en-PH-oxendict) q::after,
-    :lang(zh-Hans) q::after,
-    :lang(zh) q::after,
-    :lang(zh-Hant) q::after,
-    :lang(zh-Hans-HK) q::after,
-    :lang(zh-Hant-HK) q::after,
-    :lang(zh-Latn) q::after, :lang(zh-Latn-pinyin) q::after,
-    :lang(yue-jyutping) q::after, :lang(zh-yue-jyutping) q::after,
-    :lang(zh-Latn-tongyong) q::after,
-    :lang(zh-Latn-wadegile) q::after,
-    :lang(ja) q::after,
-    :lang(ja-Latn) q::after, :lang(ja-Latn-hepburn) q::after,
-    :lang(ja-Latn-hepburn-heploc) q::after, :lang(ja-Latn-heploc) q::after,
-    :lang(ja-Latn-hepburn-alalc97) q::after, :lang(ja-Latn-alalc97) q::after,
-    :lang(ko) q::after,
-    :lang(ko-Latn) q::after,
-    :lang(phi) q::after, :lang(fil) q::after,
-    :lang(tbw) q::after, :lang(bku) q::after, :lang(hnn) q::after, :lang(tl) q::after, :lang(tgl) q::after,
-    :lang(tbw-Tagb) q::after, :lang(bku-Buhd) q::after, :lang(hnn-Hano) q::after, :lang(tl-Tglg) q::after, :lang(tgl-Tglg) q::after,
-    :lang(en-PH) cite::after, :lang(en-PH-oxendict) cite::after,
-    :lang(zh-Hans) cite::after,
-    :lang(zh) cite::after,
-    :lang(zh-Hant) cite::after,
-    :lang(zh-Hans-HK) cite::after,
-    :lang(zh-Hant-HK) cite::after,
-    :lang(zh-Latn) cite::after, :lang(zh-Latn-pinyin) cite::after,
-    :lang(yue-jyutping) cite::after, :lang(zh-yue-jyutping) cite::after,
-    :lang(zh-Latn-tongyong) cite::after,
-    :lang(zh-Latn-wadegile) cite::after,
-    :lang(ja) cite::after,
-    :lang(ja-Latn) cite::after, :lang(ja-Latn-hepburn) cite::after,
-    :lang(ja-Latn-hepburn-heploc) cite::after, :lang(ja-Latn-heploc) cite::after,
-    :lang(ja-Latn-hepburn-alalc97) cite::after, :lang(ja-Latn-alalc97) cite::after,
-    :lang(ko) cite::after,
-    :lang(ko-Latn) cite::after,
-    :lang(phi) cite::after, :lang(fil) cite::after,
-    :lang(tbw) cite::after, :lang(bku) cite::after, :lang(hnn) cite::after, :lang(tl) cite::after, :lang(tgl) cite::after,
-    :lang(tbw-Tagb) cite::after, :lang(bku-Buhd) cite::after, :lang(hnn-Hano) cite::after, :lang(tl-Tglg) cite::after, :lang(tgl-Tglg) cite::after {
-      content: close-quote;
-    }
-  /* END: titles and inline quote punctuation marks */
 /*******************
 ** END: CITATIONS **
 *******************/
