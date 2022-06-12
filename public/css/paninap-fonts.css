@@ -1,147 +1,147 @@
 @charset "UTF-8";
 /***
-	* Do not use @import
+  * Do not use @import
 ***/
 
 /***
-	* Webfonts CSS
-	*
-	* Websites:
-	*   * Profile: https://iam.youronly.one
-	*   * YourOnly.One™: https://youronly.one
-	*
-	* Contact:
-	*   * Fediverse: https://quey.org/@techmagus | @techmagus@quey.org
-	*   * Facebook: https://fb.me/techmagus | https://m.me/techmagus
+  * Webfonts CSS
+  *
+  * Websites:
+  *   * Profile: https://iam.youronly.one
+  *   * YourOnly.One™: https://youronly.one
+  *
+  * Contact:
+  *   * Fediverse: https://quey.org/@techmagus | @techmagus@quey.org
+  *   * Facebook: https://fb.me/techmagus | https://m.me/techmagus
 ***/
 
 /***
-	* paninap-fonts.css Copyright © 2003-2021 JC John Sese Cuneta
-	*
-	* Licenses: [1] MIT/Expat License; [2] MPL v2.0; [3] LGPLv3
-	*
-	* LICENSE: MIT License / Expat License
-	*   Permission is hereby granted, free of charge, to any person obtaining a copy
-	*   of this software and associated documentation files (the "Software"), to deal
-	*   in the Software without restriction, including without limitation the rights
-	*   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	*   copies of the Software, and to permit persons to whom the Software is
-	*   furnished to do so, subject to the following conditions:
-	*
-	*   The above copyright notice and this permission notice shall be included in all
-	*   copies or substantial portions of the Software.
-	*
-	*   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	*   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	*   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	*   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	*   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	*   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-	*   SOFTWARE.
-	*
-	* LICENSE: Mozilla Public License Version 2.0 ("MPL 2.0")
-	*   This Source Code Form is subject to the terms of the Mozilla Public
-	*   License, v. 2.0. If a copy of the MPL was not distributed with this
-	*   file, You can obtain one at http://mozilla.org/MPL/2.0/.
-	*
-	* LICENSE: GNU LESSER GENERAL PUBLIC LICENSE Version 3 ("LGPLv3")
-	*   This program is free software: you can redistribute it and/or modify
-	*   it under the terms of the Lesser GNU General Public License as published by
-	*   the Free Software Foundation, either version 3 of the License, or
-	*   (at your option) any later version.
-	*
-	*   This program is distributed in the hope that it will be useful,
-	*   but WITHOUT ANY WARRANTY; without even the implied warranty of
-	*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	*   Lesser GNU General Public License for more details.
-	*
-	*   You should have received a copy of the Lesser GNU General Public License
-	*   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  * paninap-fonts.css Copyright © 2003-2021 JC John Sese Cuneta
+  *
+  * Licenses: [1] MIT/Expat License; [2] MPL v2.0; [3] LGPLv3
+  *
+  * LICENSE: MIT License / Expat License
+  *   Permission is hereby granted, free of charge, to any person obtaining a copy
+  *   of this software and associated documentation files (the "Software"), to deal
+  *   in the Software without restriction, including without limitation the rights
+  *   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  *   copies of the Software, and to permit persons to whom the Software is
+  *   furnished to do so, subject to the following conditions:
+  *
+  *   The above copyright notice and this permission notice shall be included in all
+  *   copies or substantial portions of the Software.
+  *
+  *   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  *   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  *   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  *   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  *   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  *   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  *   SOFTWARE.
+  *
+  * LICENSE: Mozilla Public License Version 2.0 ("MPL 2.0")
+  *   This Source Code Form is subject to the terms of the Mozilla Public
+  *   License, v. 2.0. If a copy of the MPL was not distributed with this
+  *   file, You can obtain one at http://mozilla.org/MPL/2.0/.
+  *
+  * LICENSE: GNU LESSER GENERAL PUBLIC LICENSE Version 3 ("LGPLv3")
+  *   This program is free software: you can redistribute it and/or modify
+  *   it under the terms of the Lesser GNU General Public License as published by
+  *   the Free Software Foundation, either version 3 of the License, or
+  *   (at your option) any later version.
+  *
+  *   This program is distributed in the hope that it will be useful,
+  *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+  *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  *   Lesser GNU General Public License for more details.
+  *
+  *   You should have received a copy of the Lesser GNU General Public License
+  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ***/
 
 /***
-	* Baybayin Unicode Fonts License:
-	*   Paul Morrow, All Rights Reserved: http://www.mts.net/~pmorrow/fonts.htm
-	*   Norman de los Santos ("Nordenx"), All Rights Reserved: http://nordenx.blogspot.com and http://nordenx.deviantart.com
-	*   Permission granted for use in my sites only.
-	*   font-face version based on: fontsquirrel.com which was based on the work of Paul Irish.
+  * Baybayin Unicode Fonts License:
+  *   Paul Morrow, All Rights Reserved: http://www.mts.net/~pmorrow/fonts.htm
+  *   Norman de los Santos ("Nordenx"), All Rights Reserved: http://nordenx.blogspot.com and http://nordenx.deviantart.com
+  *   Permission granted for use in my sites only.
+  *   font-face version based on: fontsquirrel.com which was based on the work of Paul Irish.
 ***/
 
 /***
-	* Other Attributions
-	*
-	* Twemoji: https://github.com/twitter/twemoji
-	* Twemoji Color - SVG in OpenType: https://github.com/eosrei/twemoji-color-font
-	* Barabara: https://itsmorefuninthephilippines.com
+  * Other Attributions
+  *
+  * Twemoji: https://github.com/twitter/twemoji
+  * Twemoji Color - SVG in OpenType: https://github.com/eosrei/twemoji-color-font
+  * Barabara: https://itsmorefuninthephilippines.com
 ***/
 
 /***
-	* Based on:
-	*
-	*   * CSS Fonts Module Level 4
-	*      * WD, 2018-09-20
-	*      * https://www.w3.org/TR/css-fonts-4/
-	*      * See: see @font-face
-	*   * CSS Fonts Module Level 3
-	*      * REC, 2018-09-20
-	*      * https://www.w3.org/TR/css-fonts-3/
-	*
-	*   * Selectors Level 4
-	*      * WD, 2018-11-21
-	*      * https://www.w3.org/TR/selectors-4/
-	*      * See: :dir() and :lang(*-Latn)
-	*          * 2020-06-07: do not use wildcard, it's terminating CSS in Chrome 85.0.4164.2;
-	*
+  * Based on:
+  *
+  *   * CSS Fonts Module Level 4
+  *      * WD, 2018-09-20
+  *      * https://www.w3.org/TR/css-fonts-4/
+  *      * See: see @font-face
+  *   * CSS Fonts Module Level 3
+  *      * REC, 2018-09-20
+  *      * https://www.w3.org/TR/css-fonts-3/
+  *
+  *   * Selectors Level 4
+  *      * WD, 2018-11-21
+  *      * https://www.w3.org/TR/selectors-4/
+  *      * See: :dir() and :lang(*-Latn)
+  *          * 2020-06-07: do not use wildcard, it's terminating CSS in Chrome 85.0.4164.2;
+  *
 ***/
 
 /***************************
 ** BGN: :root, html, body **
 ***************************/
-	/***
-		* Format:
-		*   font-family: var(--yuki-font-family);
-	***/
-	:root, html, body {
-		--base-sans-font: ui-sans-serif, sans-serif;
-		--base-serif-font: ui-serif, serif;
-		--base-cursive-font: cursive;
-		--base-fantasy-font: fantasy;
-		--base-monospace-font: ui-monospace, monospace;
-		--base-systemui-font: ui-rounded, ui-monospace, ui-sans-serif, ui-serif, system-ui;
-		--base-emoji-font: emoji;
-		--base-math-font: math;
-		--base-fangsong-font: fangsong;
+  /***
+    * Format:
+    *   font-family: var(--yuki-font-family);
+  ***/
+  :root, html, body {
+    --base-sans-font: ui-sans-serif, sans-serif;
+    --base-serif-font: ui-serif, serif;
+    --base-cursive-font: cursive;
+    --base-fantasy-font: fantasy;
+    --base-monospace-font: ui-monospace, monospace;
+    --base-systemui-font: ui-rounded, ui-monospace, ui-sans-serif, ui-serif, system-ui;
+    --base-emoji-font: emoji;
+    --base-math-font: math;
+    --base-fangsong-font: fangsong;
 
-		--notosans-font: "Noto Sans Display", "Noto Sans";
-		--notosans-symbols-font: "Noto Sans Symbols", "Noto Sans Symbols 2";
-		--notosans-baybayin-font: "Noto Sans Tagalog", "Noto Sans Hanunoo", "Noto Sans Buhid", "Noto Sans Tagbanwa";
-		--notosans-hebrew-font: "Noto Sans Phoenician", "Noto Sans Hebrew";
+    --notosans-font: "Noto Sans Display", "Noto Sans";
+    --notosans-symbols-font: "Noto Sans Symbols", "Noto Sans Symbols 2";
+    --notosans-baybayin-font: "Noto Sans Tagalog", "Noto Sans Hanunoo", "Noto Sans Buhid", "Noto Sans Tagbanwa";
+    --notosans-hebrew-font: "Noto Sans Phoenician", "Noto Sans Hebrew";
 
-		--notoserif-font: "Noto Serif Display", "Noto Serif";
-		--notoserif-hebrew-font: "Noto Sans Phoenician", "Noto Serif Hebrew";	/* There is no Serif for Phoenician */
+    --notoserif-font: "Noto Serif Display", "Noto Serif";
+    --notoserif-hebrew-font: "Noto Sans Phoenician", "Noto Serif Hebrew";	/* There is no Serif for Phoenician */
 
-		font-variant-ligatures: normal;
-		font-variant-numeric: oldstyle-nums tabular-nums slashed-zero; /* Set font-variant-numeric to how it should be. */
-		/* font-variant-alternates: historical-forms; */ /* hist */
-		font-variant: normal oldstyle-nums tabular-nums slashed-zero; /* Set in case some browsers does not recognise the above specific settings. */
-		font-variant-emoji: emoji;
-		-webkit-font-kerning: normal;
-		        font-kerning: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: oldstyle-nums tabular-nums slashed-zero; /* Set font-variant-numeric to how it should be. */
+    /* font-variant-alternates: historical-forms; */ /* hist */
+    font-variant: normal oldstyle-nums tabular-nums slashed-zero; /* Set in case some browsers does not recognise the above specific settings. */
+    font-variant-emoji: emoji;
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
 
-		font-optical-sizing: auto;
-		text-rendering: geometricPrecision;
+    font-optical-sizing: auto;
+    text-rendering: geometricPrecision;
 
-		/* Better to do it on a per :lang() and .class basis. If enabled, make sure all fonts used have bold and italic support.
-		font-synthesis: none;
-		*/
+    /* Better to do it on a per :lang() and .class basis. If enabled, make sure all fonts used have bold and italic support.
+    font-synthesis: none;
+    */
 
-		/* guide
-		font-synthesis-weight: auto;
-		font-synthesis-style: auto;
-		font-synthesis-small-caps: auto;
-		font-synthesis: auto auto auto;
-		*/
-	}
+    /* guide
+    font-synthesis-weight: auto;
+    font-synthesis-style: auto;
+    font-synthesis-small-caps: auto;
+    font-synthesis: auto auto auto;
+    */
+  }
 /***************************
 ** END: :root, html, body **
 ***************************/
@@ -149,30 +149,30 @@
 /***************
 ** BGN: SHIMS **
 ***************/
-	/* BIDI HTML5 and CSS3 "isolate" */
-	[dir="ltr"],
-	bdo[dir="ltr"],
-	:dir(ltr) {
-		direction: ltr;
-	}
-	[dir="rtl"],
-	bdo[dir="rtl"],
-	:dir(rtl) {
-		direction: rtl;
-	}
-	/* As of 2021-02-08: no longer needed, remove this in our file later
-	[dir="ltr"], [dir="rtl"]
-	:dir(ltr), :dir(rtl) {
-		unicode-bidi: -webkit-isolate;
-		unicode-bidi: -moz-isolate;
-		unicode-bidi: isolate;
-	}
-	bdo[dir="ltr"], bdo[dir="rtl"],
-	:dir(ltr), :dir(rtl) {
-		unicode-bidi: -moz-isolate-override;
-		unicode-bidi: isolate-override;
-	}
-	*/
+  /* BIDI HTML5 and CSS3 "isolate" */
+  [dir="ltr"],
+  bdo[dir="ltr"],
+  :dir(ltr) {
+    direction: ltr;
+  }
+  [dir="rtl"],
+  bdo[dir="rtl"],
+  :dir(rtl) {
+    direction: rtl;
+  }
+  /* As of 2021-02-08: no longer needed, remove this in our file later
+  [dir="ltr"], [dir="rtl"]
+  :dir(ltr), :dir(rtl) {
+    unicode-bidi: -webkit-isolate;
+    unicode-bidi: -moz-isolate;
+    unicode-bidi: isolate;
+  }
+  bdo[dir="ltr"], bdo[dir="rtl"],
+  :dir(ltr), :dir(rtl) {
+    unicode-bidi: -moz-isolate-override;
+    unicode-bidi: isolate-override;
+  }
+  */
 /***************
 ** END: SHIMS **
 ***************/
@@ -180,63 +180,63 @@
 /************************
 ** BGN: Default styles **
 ************************/
-	/*
-	[class^="nums-" i] {
-		font-family: "Source Sans Pro", sans-serif;
-	}
-	[class$="-serif" i] {
-		font-family: var(--notoserif-font), var(--base-serif-font);
-	}
-	[class$="-sans" i] {
-		font-family: var(--notosans-font), var(--base-sans-font);
-	}
-	[class$="-mono" i] {
-		font-family: "Noto Sans Mono", var(--base-monospace-font);
-	}
-	*/
+  /*
+  [class^="nums-" i] {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  [class$="-serif" i] {
+    font-family: var(--notoserif-font), var(--base-serif-font);
+  }
+  [class$="-sans" i] {
+    font-family: var(--notosans-font), var(--base-sans-font);
+  }
+  [class$="-mono" i] {
+    font-family: "Noto Sans Mono", var(--base-monospace-font);
+  }
+  */
 
-	/* OpenType Stacked-Fractions (afrc) */
-		[class~="nums-fractions" i] {
-			/* font-family: "none-found-yet"; */ /* OpenType fonts with Fractions support */
-			font-variant-numeric: oldstyle-nums tabular-nums stacked-fractions slashed-zero;
-		}
-	/* OpenType Ordinal (ordn) */
-		[class~="nums-ordinal" i] {
-			font-family: "Calibri"; /* OpenType fonts with Ordinal support */
-			font-variant-numeric: oldstyle-nums tabular-nums ordinal slashed-zero;
-		}
-	/* OpenType Superscript (sups) */
-		.superscript {
-			font-variant-position: super;
-		}
-	/* OpenType Subscript (subs) */
-		.subscript {
-			font-variant-position: sub;
-		}
-	/* OpenType small-caps (smcp) */
-		.small-caps {
-			font-variant-caps: small-caps;
-		}
-	/* OpenType all-small-caps (c2sc) */
-		.all-small-caps {
-			font-variant-caps: all-small-caps;
-		}
-	/* OpenType petite-caps (pcap) */
-		.petite-caps {
-			font-variant-caps: petite-caps;
-		}
-	/* OpenType all-petite-caps (c2pc, pcap) */
-		.all-petite-caps {
-			font-variant-caps: all-petite-caps;
-		}
-	/* OpenType unicase (unic) */
-		.unicase {
-			font-variant-caps: unicase;
-		}
-	/* OpenType titling-caps (titl) */
-		.titling-caps {
-			font-variant-caps: titling-caps;
-		}
+  /* OpenType Stacked-Fractions (afrc) */
+    [class~="nums-fractions" i] {
+      /* font-family: "none-found-yet"; */ /* OpenType fonts with Fractions support */
+      font-variant-numeric: oldstyle-nums tabular-nums stacked-fractions slashed-zero;
+    }
+  /* OpenType Ordinal (ordn) */
+    [class~="nums-ordinal" i] {
+      font-family: "Calibri"; /* OpenType fonts with Ordinal support */
+      font-variant-numeric: oldstyle-nums tabular-nums ordinal slashed-zero;
+    }
+  /* OpenType Superscript (sups) */
+    .superscript {
+      font-variant-position: super;
+    }
+  /* OpenType Subscript (subs) */
+    .subscript {
+      font-variant-position: sub;
+    }
+  /* OpenType small-caps (smcp) */
+    .small-caps {
+      font-variant-caps: small-caps;
+    }
+  /* OpenType all-small-caps (c2sc) */
+    .all-small-caps {
+      font-variant-caps: all-small-caps;
+    }
+  /* OpenType petite-caps (pcap) */
+    .petite-caps {
+      font-variant-caps: petite-caps;
+    }
+  /* OpenType all-petite-caps (c2pc, pcap) */
+    .all-petite-caps {
+      font-variant-caps: all-petite-caps;
+    }
+  /* OpenType unicase (unic) */
+    .unicase {
+      font-variant-caps: unicase;
+    }
+  /* OpenType titling-caps (titl) */
+    .titling-caps {
+      font-variant-caps: titling-caps;
+    }
 /************************
 ** END: Default styles **
 ************************/
@@ -244,532 +244,565 @@
 /***************
 ** BGN: FONTS **
 ***************/
-	/***
-		* Unfortunately, the CSS4 font-synthesis: none; descriptor is not yet recognized by most browsers.
-		* See: https://www.w3.org/TR/css-fonts-4/
-		*
-		* Setting font-style and font-weight descriptor via class and selectors will require
-		*   that all instances of the scripts should have that class or is correctly targeted.
-		*   However, this is not guaranteed if we use a CMS not designed for multi-script purposes.
-	***/
+  /***
+    * Unfortunately, the CSS4 font-synthesis: none; descriptor is not yet recognized by most browsers.
+    * See: https://www.w3.org/TR/css-fonts-4/
+    *
+    * Setting font-style and font-weight descriptor via class and selectors will require
+    *   that all instances of the scripts should have that class or is correctly targeted.
+    *   However, this is not guaranteed if we use a CMS not designed for multi-script purposes.
+  ***/
 
-	/***
-		* https://rsc.youronly.one/css/paninap-fonts.css
-		* https://rsc.youronly.one/css/paninap-style.css
-	***/
+  /***
+    * https://rsc.youronly.one/css/paninap-fonts.css
+    * https://rsc.youronly.one/css/paninap-style.css
+  ***/
 
-	/***
-		* List of font families
-		*
-		* Baybayin-Tagbanwa-NotoSans
-		* Baybayin-MangyanBuhid-NotoSans
-		* Baybayin-MangyanHanunoo-NotoSans
-		* Baybayin-Tagalog-NotoSans
-		* Hebrew-Modern-NotoSans
-		* Hebrew-Phoenician-NotoSans
-		*
-		* Baybayin-Tagbanwa-paninap
-		* Baybayin-MangyanBuhid-Nordenx
-		* Baybayin-MangyanHanunoo-Hanubrush-Nordenx
-		* Baybayin-Tagalog-ModernClub-Nordenx
-		* Hebrew-Paleo-Gezer-Unicode
-		* Hebrew-Proto-Canaanite-Unicode
-		*
-		* Barabara-Unicode-paninap
-		* Emoji-Twemoji-Color-SVGinOT
-	***/
+  /***
+    * List of font families
+    *
+    * Baybayin-Tagbanwa-NotoSans
+    * Baybayin-MangyanBuhid-NotoSans
+    * Baybayin-MangyanHanunoo-NotoSans
+    * Baybayin-Tagalog-NotoSans
+    * Hebrew-Modern-NotoSans
+    * Hebrew-Phoenician-NotoSans
+    *
+    * Baybayin-Tagbanwa-paninap
+    * Baybayin-MangyanBuhid-Nordenx
+    * Baybayin-MangyanHanunoo-Hanubrush-Nordenx
+    * Baybayin-Tagalog-ModernClub-Nordenx
+    * Hebrew-Paleo-Gezer-Unicode
+    * Hebrew-Proto-Canaanite-Unicode
+    *
+    * Barabara-Unicode-paninap
+    * Emoji-Twemoji-Color-SVGinOT
+  ***/
 
-	/* BGN: MOST USED */
-		/* BGN: [Custom] Baybayin-Tagalog-ModernClub-Nordenx */
-			@font-face {
-				font-family: "Baybayin-Tagalog-ModernClub-Nordenx";
-				src: local("Baybayin Modern Club Regular"), /* full font name */
-						 local("Baybayin Modern Club"), /* full font name */
-						 local("BaybayinModernClub"), /* Postscript name */
-						 url("../fonts/baybayintagalogmodernclub-webfont.woff2") format("woff2"),
-						 url("../fonts/baybayintagalogmodernclub-webfont.woff") format("woff"),
-						 url("../fonts/baybayintagalogmodernclub-webfont.ttf") format("opentype");
-				font-display: swap;
-				font-language-override: "PIL";
-				font-style: normal;
-				unicode-range: U+1700-171F, U+1734-1736, U+20B1;
-			}
-		/* END: [Custom] Baybayin-Tagalog-ModernClub-Nordenx */
+  /* BGN: MOST USED */
+    /* BGN: [Custom] Baybayin-Tagalog-ModernClub-Nordenx */
+      @font-face {
+        font-family: "Baybayin-Tagalog-ModernClub-Nordenx";
+        src:  local("Baybayin Modern Club Regular"), /* full font name */
+              local("Baybayin Modern Club"), /* full font name */
+              local("BaybayinModernClub"), /* Postscript name */
+              url("../fonts/baybayintagalogmodernclub-webfont.woff2") format("woff2"),
+              url("../fonts/baybayintagalogmodernclub-webfont.woff") format("woff"),
+              url("../fonts/baybayintagalogmodernclub-webfont.ttf") format("opentype");
+        font-display: swap;
+        font-language-override: "PIL";
+        font-style: normal;
+        unicode-range: U+1700-171F, U+1734-1736, U+20B1;
+      }
+    /* END: [Custom] Baybayin-Tagalog-ModernClub-Nordenx */
 
-		/* BGN: Special Characters */
-			/* &-sign / ampersand */
-			/*
-			@font-face {
-				font-family: "ampersand";
-				src: local(""), /* full font name
-						 local(""), /* Postscript name
-						 url("../fonts/ampersand-regular-webfont.woff2") format("woff2"),
-						 url("../fonts/ampersand-regular-webfont.woff") format("woff"),
-						 url("../fonts/ampersand-regular-webfont.ttf") format("opentype");
-				font-display: swap;
-				font-stretch: normal;
-				font-style: normal;
-				font-weight: normal;
-				unicode-range: U+20B1; /* Peso currency
-			}
-			*/
-		/* END: Special Characters */
-	/* END: MOST USED */
+    /* BGN: Special Characters */
+      /* &-sign / ampersand */
+      /*
+      @font-face {
+        font-family: "ampersand";
+        src:  local(""), /* full font name
+              local(""), /* Postscript name
+              url("../fonts/ampersand-regular-webfont.woff2") format("woff2"),
+              url("../fonts/ampersand-regular-webfont.woff") format("woff"),
+              url("../fonts/ampersand-regular-webfont.ttf") format("opentype");
+        font-display: swap;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: normal;
+        unicode-range: U+20B1; /* Peso currency
+      }
+      */
+    /* END: Special Characters */
 
-	/* BGN: REGULARLY USED */
-		/* BGN: [Custom] Hebrew-Paleo-Gezer-Unicode */
-			@font-face {
-				font-family: "Hebrew-Paleo-Gezer-Unicode";
-				src: local("Hebrew Paleo Gezer Medium"), /* full font name */
-						 local("Hebrew Paleo Gezer"), /* full font name */
-						 local("Hebrew-Paleo-Gezer"), /* Postscript name */
-						 url("../fonts/hebrew-paleo-gezer-pure-unicode-webfont.woff2") format("woff2"),
-						 url("../fonts/hebrew-paleo-gezer-pure-unicode-webfont.woff") format("woff"),
-						 url("../fonts/hebrew-paleo-gezer-pure-unicode-webfont.ttf") format("opentype");
-				font-display: swap;
-				font-language-override: "IWR";
-				font-style: normal;
-				unicode-range: U+10900-1091F;
-			}
-		/* END: [Custom] Hebrew-Paleo-Gezer-Unicode */
+    /* BGN: cc-icons Unicode */
+      @font-face {
+        font-family: "cc-icons";
+        src:  local("cc-icons"),
+              local("creative_commons"),
+              url("../fonts/cc-icons-unicode.woff2") format("woff2"),
+              url("../fonts/cc-icons-unicode.woff") format("woff"),
+              url("../fonts/cc-icons-unicode.ttf") format("opentype");
+        font-display: swap;
+        font-style: normal;
+        font-weight: normal;
+        unicode-range: U+229C, U+1F10D-1F10F, U+1F16D-1F16F;
+      }
+    /* END: cc-icons Unicode */
+  /* END: MOST USED */
 
-		/* Composite font: Emoji Unicode Blocks with Mobile emoji support */
-		/*
-		 * True emoji code points
-		 *   U+1F100-1F1FF - Enclosed Alphanumeric Supplement (including regional indicator symbols)
-		 *   U+1F300-1F5FF - Miscellaneous Symbols and Pictographs
-		 *   U+1F600-1F64F - Emoticons
-		 *   U+1F680-1F6FF - Transport and Map Symbols
-		 *   U+1F900-1F9FF - Supplemantal Symbols and Pictographs
-		 *
-		 * Do not use for emoji fonts as these will replace commonly used dingbats and symbols.
-		 *   U+2190-21FF - Arrows
-		 *   U+2300-23FF - Miscellaneous Technical
-		 *   U+2600-26FF - Miscellaneous Symbols
-		 *   U+2700-27BF - Dingbats
-		 *   U+2B00-2BFF - Miscellaneous Symbols and Arrows
-		 *   U+2900-297F - Supplemental Arrows-B
-		**/
-		/* BGN: [Custom] Emoji-Twemoji-Color-SVGinOT */
-			@font-face {
-				font-family: "Emoji-Twemoji-Color-SVGinOT";
-				src: local("Twitter Color Emoji"),
-						 local("Twitter Color Emoji Regular"),
-						 local("Twitter Color Emoji SVGinOT"),
-						 local("TwitterColorEmojiSVGinOT"),
-						 url("../fonts/TwitterColorEmoji-SVGinOT.ttf") format("opentype");
-				font-display: swap;
-				font-stretch: normal;
-				font-style: normal;
-				font-weight: normal;
-			}
-		/* END: [Custom] Emoji-Twemoji-Color-SVGinOT */
-	/* END: REGULARLY USED */
+  /* BGN: REGULARLY USED */
+    /* BGN: [Custom] Hebrew-Paleo-Gezer-Unicode */
+      @font-face {
+        font-family: "Hebrew-Paleo-Gezer-Unicode";
+        src:  local("Hebrew Paleo Gezer Medium"), /* full font name */
+              local("Hebrew Paleo Gezer"), /* full font name */
+              local("Hebrew-Paleo-Gezer"), /* Postscript name */
+              url("../fonts/hebrew-paleo-gezer-pure-unicode-webfont.woff2") format("woff2"),
+              url("../fonts/hebrew-paleo-gezer-pure-unicode-webfont.woff") format("woff"),
+              url("../fonts/hebrew-paleo-gezer-pure-unicode-webfont.ttf") format("opentype");
+        font-display: swap;
+        font-language-override: "IWR";
+        font-style: normal;
+        unicode-range: U+10900-1091F;
+      }
+    /* END: [Custom] Hebrew-Paleo-Gezer-Unicode */
 
-	/* BGN: RARELY USED */
-		/* BGN: [Custom] Hebrew-Proto-Canaanite-Unicode */
-			@font-face {
-				font-family: "Hebrew-Proto-Canaanite-Unicode";
-				src: local("Proto Canaanite Medium"), /* full font name */
-						 local("Proto Canaanite"), /* full font name */
-						 local("Proto-Canaanite"), /* Postscript name */
-						 url("../fonts/proto-canaanite-pure-unicode-webfont.woff2") format("woff2"),
-						 url("../fonts/proto-canaanite-pure-unicode-webfont.woff") format("woff"),
-						 url("../fonts/proto-canaanite-pure-unicode-webfont.ttf") format("opentype");
-				font-display: swap;
-				font-language-override: "IWR";
-				font-style: normal;
-				unicode-range: U+10900-1091F;
-			}
-		/* END: [Custom] Hebrew-Proto-Canaanite-Unicode */
+    /* Composite font: Emoji Unicode Blocks with Mobile emoji support */
+    /*
+     * True emoji code points
+     *   U+1F100-1F1FF - Enclosed Alphanumeric Supplement (including regional indicator symbols)
+     *   U+1F300-1F5FF - Miscellaneous Symbols and Pictographs
+     *   U+1F600-1F64F - Emoticons
+     *   U+1F680-1F6FF - Transport and Map Symbols
+     *   U+1F900-1F9FF - Supplemantal Symbols and Pictographs
+     *
+     * Do not use for emoji fonts as these will replace commonly used dingbats and symbols.
+     *   U+2190-21FF - Arrows
+     *   U+2300-23FF - Miscellaneous Technical
+     *   U+2600-26FF - Miscellaneous Symbols
+     *   U+2700-27BF - Dingbats
+     *   U+2B00-2BFF - Miscellaneous Symbols and Arrows
+     *   U+2900-297F - Supplemental Arrows-B
+    **/
+    /* BGN: [Custom] Emoji-Twemoji-Color-SVGinOT */
+      @font-face {
+        font-family: "Emoji-Twemoji-Color-SVGinOT";
+        src:  local("Twitter Color Emoji"),
+              local("Twitter Color Emoji Regular"),
+              local("Twitter Color Emoji SVGinOT"),
+              local("TwitterColorEmojiSVGinOT"),
+              url("../fonts/TwitterColorEmoji-SVGinOT.ttf") format("opentype");
+        font-display: swap;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: normal;
+      }
+    /* END: [Custom] Emoji-Twemoji-Color-SVGinOT */
+  /* END: REGULARLY USED */
 
-		/* BGN: [Custom] Baybayin-MangyanHanunoo-Hanubrush-Nordenx */
-			@font-face {
-				font-family: "Baybayin-MangyanHanunoo-Hanubrush-Nordenx";
-				src: local("Baybayin Mangyan Hanubrush Regular"), /* full font name */
-						 local("Baybayin Mangyan Hanubrush"), /* full font name */
-						 local("BaybayinMangyanHanubrush"), /* Postscript name */
-						 url("../fonts/baybayinmangyanhanubrush-webfont.woff2") format("woff2"),
-						 url("../fonts/baybayinmangyanhanubrush-webfont.woff") format("woff"),
-						 url("../fonts/baybayinmangyanhanubrush-webfont.ttf") format("opentype");
-				font-display: swap;
-				font-language-override: "PIL";
-				font-style: normal;
-				unicode-range: U+1720-173F, U+1714, U+20B1;
-			}
-		/* END: [Custom] Baybayin-MangyanHanunoo-Hanubrush-Nordenx */
+  /* BGN: RARELY USED */
+    /* BGN: [Custom] Hebrew-Proto-Canaanite-Unicode */
+      @font-face {
+        font-family: "Hebrew-Proto-Canaanite-Unicode";
+        src:  local("Proto Canaanite Medium"), /* full font name */
+              local("Proto Canaanite"), /* full font name */
+              local("Proto-Canaanite"), /* Postscript name */
+              url("../fonts/proto-canaanite-pure-unicode-webfont.woff2") format("woff2"),
+              url("../fonts/proto-canaanite-pure-unicode-webfont.woff") format("woff"),
+              url("../fonts/proto-canaanite-pure-unicode-webfont.ttf") format("opentype");
+        font-display: swap;
+        font-language-override: "IWR";
+        font-style: normal;
+        unicode-range: U+10900-1091F;
+      }
+    /* END: [Custom] Hebrew-Proto-Canaanite-Unicode */
 
-		/* BGN: [Custom] Baybayin-MangyanBuhid-Nordenx */
-			@font-face {
-				font-family: "Baybayin-MangyanBuhid-Nordenx";
-				src: local("Baybayin Mangyan Buhid Regular"), /* full font name */
-						 local("Baybayin Mangyan Buhid"), /* full font name */
-						 local("BaybayinMangyanBuhid"), /* Postscript name */
-						 url("../fonts/baybayinmangyanbuhid-webfont.woff2") format("woff2"),
-						 url("../fonts/baybayinmangyanbuhid-webfont.woff") format("woff"),
-						 url("../fonts/baybayinmangyanbuhid-webfont.ttf") format("opentype");
-				font-display: swap;
-				font-language-override: "PIL";
-				font-style: normal;
-				unicode-range: U+1740-175F, U+1714, U+1734-1736, U+20B1;
-			}
-		/* END: [Custom] Baybayin-MangyanBuhid-Nordenx */
+    /* BGN: [Custom] Baybayin-MangyanHanunoo-Hanubrush-Nordenx */
+      @font-face {
+        font-family: "Baybayin-MangyanHanunoo-Hanubrush-Nordenx";
+        src:  local("Baybayin Mangyan Hanubrush Regular"), /* full font name */
+              local("Baybayin Mangyan Hanubrush"), /* full font name */
+              local("BaybayinMangyanHanubrush"), /* Postscript name */
+              url("../fonts/baybayinmangyanhanubrush-webfont.woff2") format("woff2"),
+              url("../fonts/baybayinmangyanhanubrush-webfont.woff") format("woff"),
+              url("../fonts/baybayinmangyanhanubrush-webfont.ttf") format("opentype");
+        font-display: swap;
+        font-language-override: "PIL";
+        font-style: normal;
+        unicode-range: U+1720-173F, U+1714, U+20B1;
+      }
+    /* END: [Custom] Baybayin-MangyanHanunoo-Hanubrush-Nordenx */
 
-		/* BGN: [Custom] Baybayin-Tagbanwa-paninap */
-			/*
-			@font-face {
-				font-family: "Baybayin-Tagbanwa-paninap";
-				src: local(""), /* full font name
-						 local(""), /* Postscript name
-						 url("../fonts/-webfont.woff2") format("woff2"),
-						 url("../fonts/-webfont.woff") format("woff"),
-						 url("../fonts/-webfont.ttf") format("opentype");
-				font-display: swap;
-				-webkit-font-language-override: "PIL";
-								font-language-override: "PIL";
-				font-style: normal;
-				unicode-range: U+1760-177F, U+1714, U+1734-1736, U+20B1;
-			}
-			*/
-		/* END: [Custom] Baybayin-Tagbanwa-paninap */
+    /* BGN: [Custom] Baybayin-MangyanBuhid-Nordenx */
+      @font-face {
+        font-family: "Baybayin-MangyanBuhid-Nordenx";
+        src:  local("Baybayin Mangyan Buhid Regular"), /* full font name */
+              local("Baybayin Mangyan Buhid"), /* full font name */
+              local("BaybayinMangyanBuhid"), /* Postscript name */
+              url("../fonts/baybayinmangyanbuhid-webfont.woff2") format("woff2"),
+              url("../fonts/baybayinmangyanbuhid-webfont.woff") format("woff"),
+              url("../fonts/baybayinmangyanbuhid-webfont.ttf") format("opentype");
+        font-display: swap;
+        font-language-override: "PIL";
+        font-style: normal;
+        unicode-range: U+1740-175F, U+1714, U+1734-1736, U+20B1;
+      }
+    /* END: [Custom] Baybayin-MangyanBuhid-Nordenx */
 
-		/* BGN: [Custom] Barabara-Unicode-paninap */
-			@font-face {
-				font-family: "Barabara-Unicode-paninap";
-				src: local("BARABARA Regular"), /* full font name */
-						 local("BARABARA"), /* full font name */
-						 local("BARABARARegular"), /* Postscript name */
-						 url("../fonts/barabara-unicode-webfont.woff2") format("woff2"),
-						 url("../fonts/barabara-unicode-webfont.woff") format("woff"),
-						 url("../fonts/barabara-unicode-webfont.ttf") format("opentype");
-				font-display: swap;
-			}
-		/* BGN: [Custom] Barabara-Unicode-paninap */
-	/* END: RARELY USED */
+    /* BGN: [Custom] Baybayin-Tagbanwa-paninap */
+      /*
+      @font-face {
+        font-family: "Baybayin-Tagbanwa-paninap";
+        src:  local(""), /* full font name
+              local(""), /* Postscript name
+              url("../fonts/-webfont.woff2") format("woff2"),
+              url("../fonts/-webfont.woff") format("woff"),
+              url("../fonts/-webfont.ttf") format("opentype");
+        font-display: swap;
+        -webkit-font-language-override: "PIL";
+                font-language-override: "PIL";
+        font-style: normal;
+        unicode-range: U+1760-177F, U+1714, U+1734-1736, U+20B1;
+      }
+      */
+    /* END: [Custom] Baybayin-Tagbanwa-paninap */
 
-
-	/* BGN: Fallback Fonts */
-		/*****************************************************************************
-		 * Baybayin Unicode Blocks: Noto Sans Tagalog + Hanunoo + Buhid + Tagbanwa   *
-		 *   * Peso currency: U+20B1                                                 *
-		 *                                                                           *
-		 *   Tagalog: U+1700-171F                                                    *
-		 *     * Punctuation: U+1714 -- virama                                       *
-		 *   Hanunoo: U+1720-173F                                                    *
-		 *     * Punctuation: U+1734-1736 -- pamudpod, comma, fullstop               *
-		 *   Buhid: U+1740-175F                                                      *
-		 *   Tagbanwa: U+1760-177F                                                   *
-		 *****************************************************************************/
-
-		/* We are using Noto font as fallback as of 2021-09-16 */
-
-	/* END: Fallback Fonts */
+    /* BGN: [Custom] Barabara-Unicode-paninap */
+      @font-face {
+        font-family: "Barabara-Unicode-paninap";
+        src:  local("BARABARA Regular"), /* full font name */
+              local("BARABARA"), /* full font name */
+              local("BARABARARegular"), /* Postscript name */
+              url("../fonts/barabara-unicode-webfont.woff2") format("woff2"),
+              url("../fonts/barabara-unicode-webfont.woff") format("woff"),
+              url("../fonts/barabara-unicode-webfont.ttf") format("opentype");
+        font-display: swap;
+      }
+    /* BGN: [Custom] Barabara-Unicode-paninap */
+  /* END: RARELY USED */
 
 
-	/* BGN: LANG */
-		/***
-			* Have to specifically define direction and select font descriptors
-			* Some themes and browsers are not displaying the fonts correctly
-		***/
+  /* BGN: Fallback Fonts */
+    /*****************************************************************************
+     * Baybayin Unicode Blocks: Noto Sans Tagalog + Hanunoo + Buhid + Tagbanwa   *
+     *   * Peso currency: U+20B1                                                 *
+     *                                                                           *
+     *   Tagalog: U+1700-171F                                                    *
+     *     * Punctuation: U+1714 -- virama                                       *
+     *   Hanunoo: U+1720-173F                                                    *
+     *     * Punctuation: U+1734-1736 -- pamudpod, comma, fullstop               *
+     *   Buhid: U+1740-175F                                                      *
+     *   Tagbanwa: U+1760-177F                                                   *
+     *****************************************************************************/
 
-		/***
-			* BGN: Special font-family override
-			*
-			* Unfortunately we have to do this because browsers can not auto-detect the appropriate :lang of a script.
-			*
-			* This shows us that it is a bad idea to add font-family in the :lang() levelas it will override the font selection
-			*   if there are languages without an explicit lang="" attribute.
-			*
-			* Since there are sections that we can not add an explicit lang="" attribute without major changes in the code,
-			*   like in post titles, this is the most effective way to ensure the scripts are showing correctly.
-			*
-			* We also have to be very careful in only using script fonts made for web-font usage, meaning, there are no extra
-			*   glyphs in the font beyond the range of what it was supposed to cover. Otherwise, it will affect the other scripts,
-			*   especially Latin scripts.
-			*
-			* Also, do not include CJK fonts below. Unicode-compliant CJK fonts, like Noto Sans, share a lot of glyph points
-			*   but with different strokes.
-		***/
+    /* We are using Noto font as fallback as of 2021-09-16 */
 
-		/***
-			* Important note: Do not use font-family in :lang() as it applies to every element when the lang="" attribute is
-			*   declared in <html> element. Otherwise we have to be very specific in CSS overrides like in MathJax case.
-			*
-			* Best way to include our choice of fonts is to manually override all font-family declarations of each theme, per site.
-		***/
-		:lang(en), :lang(en-oxendict),
-		:lang(en-PH), :lang(en-PH-oxendict) {
-			direction: ltr;
-			font-language-override: "ENG";
-			/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-			font-synthesis: initial;
-		}
+  /* END: Fallback Fonts */
 
-		/* BGN: Catch all Chinese lang */
-			/* :lang("zh-*"), */
-			:lang(zh-Hans) {
-				direction: ltr;
-				font-variant-east-asian: simplified proportional-width;
-				font-language-override: "ZHS";
-				/* font-family: var(--notosans-font), "Noto Sans CJK SC", "Noto Sans SC", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(zh),
-			:lang(zh-Hant) {
-				direction: ltr;
-				font-variant-east-asian: traditional proportional-width;
-				font-language-override: "ZHT";
-				/* font-family: var(--notosans-font), "Noto Sans CJK TC", "Noto Sans TC", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(zh-Hans-HK) {
-				direction: ltr;
-				font-variant-east-asian: simplified proportional-width;
-				font-language-override: "ZHS";
-				/* font-family: var(--notosans-font), "Noto Sans HK", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(zh-Hant-HK) {
-				direction: ltr;
-				font-variant-east-asian: traditional proportional-width;
-				font-language-override: "ZHH";
-				/* font-family: var(--notosans-font), "Noto Sans HK", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(zh-Latn), :lang(zh-Latn-pinyin),
-			:lang(yue-jyutping), :lang(zh-yue-jyutping),
-			:lang(zh-Latn-tongyong),
-			:lang(zh-Latn-wadegile) {
-				direction: ltr;
-				font-language-override: "ZHP";
-				/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-synthesis: initial;
-			}
-		/* END: Catch all Chinese lang */
 
-		/* BGN: Catch all Japanese lang */
-			/* :lang("ja-*"), */
-			:lang(ja) {
-				direction: ltr;
-				font-variant-east-asian: jis04 proportional-width;
-				font-language-override: "JAN";
-				/* font-family: var(--notosans-font), "Noto Sans CJK JP", "Noto Sans JP", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(ja-Latn), :lang(ja-Latn-hepburn),
-			:lang(ja-Latn-hepburn-heploc), :lang(ja-Latn-heploc),
-			:lang(ja-Latn-hepburn-alalc97), :lang(ja-Latn-alalc97) {
-				direction: ltr;
-				/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-synthesis: initial;
-			}
-		/* END: Catch all Japanese lang */
+  /* BGN: LANG */
+    /***
+      * Have to specifically define direction and select font descriptors
+      * Some themes and browsers are not displaying the fonts correctly
+    ***/
 
-		/* BGN: Catch all Korean lang */
-			/* :lang("ko-*"), */
-			:lang(ko) {
-				direction: ltr;
-				font-variant-east-asian: proportional-width;
-				font-language-override: "KOR";
-				/* font-family: var(--notosans-font), "Noto Sans CJK KR", "Noto Sans KR", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(ko-Latn) {
-				direction: ltr;
-				/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-synthesis: initial;
-			}
-		/* END: Catch all Korean lang */
+    /***
+      * BGN: Special font-family override
+      *
+      * Unfortunately we have to do this because browsers can not auto-detect the appropriate :lang of a script.
+      *
+      * This shows us that it is a bad idea to add font-family in the :lang() levelas it will override the font selection
+      *   if there are languages without an explicit lang="" attribute.
+      *
+      * Since there are sections that we can not add an explicit lang="" attribute without major changes in the code,
+      *   like in post titles, this is the most effective way to ensure the scripts are showing correctly.
+      *
+      * We also have to be very careful in only using script fonts made for web-font usage, meaning, there are no extra
+      *   glyphs in the font beyond the range of what it was supposed to cover. Otherwise, it will affect the other scripts,
+      *   especially Latin scripts.
+      *
+      * Also, do not include CJK fonts below. Unicode-compliant CJK fonts, like Noto Sans, share a lot of glyph points
+      *   but with different strokes.
+    ***/
 
-		/* BGN: Catch all PH (original) scripts */
-			:lang(phi), :lang(fil),
-			:lang(tbw), :lang(bku), :lang(hnn), :lang(tl), :lang(tgl) {
-				direction: ltr;
-				font-language-override: "PIL";
-				/* font-family: var(--notosans-font), var(--notosans-baybayin-font), var(--notosans-hebrew-font); */ /* Force override */
-				font-synthesis: initial;
-			}
-			:lang(tbw-Tagb), :lang(bku-Buhd), :lang(hnn-Hano), :lang(tl-Tglg), :lang(tgl-Tglg)
-			/* :lang(*-Tagb), :lang(*-Buhd), :lang(*-Hano), :lang(*-Tglg) */
-			{
-				font-variant-east-asian: proportional-width;
-				font-style: normal;
-				font-synthesis: weight;
-			}
-		/* END: Catch all PH (original) scripts */
+    /***
+      * Important note: Do not use font-family in :lang() as it applies to every element when the lang="" attribute is
+      *   declared in <html> element. Otherwise we have to be very specific in CSS overrides like in MathJax case.
+      *
+      * Best way to include our choice of fonts is to manually override all font-family declarations of each theme, per site.
+    ***/
+    :lang(en), :lang(en-oxendict),
+    :lang(en-PH), :lang(en-PH-oxendict) {
+      direction: ltr;
+      font-language-override: "ENG";
+      /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+      font-synthesis: initial;
+    }
 
-		/* BGN: Catch all Greek langs and scripts */
-			:lang(el), :lang(gre), :lang(ell), /* Modern Greek */
-			:lang(el-Latn), :lang(gre-Latn), :lang(ell-Latn),
-			:lang(grc), /* Ancient Greek */
-			:lang(grc-Latn) {
-				direction: ltr;
-				/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-			}
-			:lang(el), :lang(gre), :lang(ell) /* Modern Greek */ {
-				font-language-override: "ELL";
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(el-Latn), :lang(gre-Latn), :lang(ell-Latn) {
-				font-synthesis: initial;
-			}
+    /* BGN: Catch all Chinese lang */
+      /* :lang("zh-*"), */
+      :lang(zh-Hans) {
+        direction: ltr;
+        font-variant-east-asian: simplified proportional-width;
+        font-language-override: "ZHS";
+        /* font-family: var(--notosans-font), "Noto Sans CJK SC", "Noto Sans SC", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(zh),
+      :lang(zh-Hant) {
+        direction: ltr;
+        font-variant-east-asian: traditional proportional-width;
+        font-language-override: "ZHT";
+        /* font-family: var(--notosans-font), "Noto Sans CJK TC", "Noto Sans TC", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(zh-Hans-HK) {
+        direction: ltr;
+        font-variant-east-asian: simplified proportional-width;
+        font-language-override: "ZHS";
+        /* font-family: var(--notosans-font), "Noto Sans HK", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(zh-Hant-HK) {
+        direction: ltr;
+        font-variant-east-asian: traditional proportional-width;
+        font-language-override: "ZHH";
+        /* font-family: var(--notosans-font), "Noto Sans HK", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(zh-Latn), :lang(zh-Latn-pinyin),
+      :lang(yue-jyutping), :lang(zh-yue-jyutping),
+      :lang(zh-Latn-tongyong),
+      :lang(zh-Latn-wadegile) {
+        direction: ltr;
+        font-language-override: "ZHP";
+        /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-synthesis: initial;
+      }
+    /* END: Catch all Chinese lang */
+
+    /* BGN: Catch all Japanese lang */
+      /* :lang("ja-*"), */
+      :lang(ja) {
+        direction: ltr;
+        font-variant-east-asian: jis04 proportional-width;
+        font-language-override: "JAN";
+        /* font-family: var(--notosans-font), "Noto Sans CJK JP", "Noto Sans JP", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(ja-Latn), :lang(ja-Latn-hepburn),
+      :lang(ja-Latn-hepburn-heploc), :lang(ja-Latn-heploc),
+      :lang(ja-Latn-hepburn-alalc97), :lang(ja-Latn-alalc97) {
+        direction: ltr;
+        /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-synthesis: initial;
+      }
+    /* END: Catch all Japanese lang */
+
+    /* BGN: Catch all Korean lang */
+      /* :lang("ko-*"), */
+      :lang(ko) {
+        direction: ltr;
+        font-variant-east-asian: proportional-width;
+        font-language-override: "KOR";
+        /* font-family: var(--notosans-font), "Noto Sans CJK KR", "Noto Sans KR", var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(ko-Latn) {
+        direction: ltr;
+        /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-synthesis: initial;
+      }
+    /* END: Catch all Korean lang */
+
+    /* BGN: Catch all PH (original) scripts */
+      :lang(phi), :lang(fil),
+      :lang(tbw), :lang(bku), :lang(hnn), :lang(tl), :lang(tgl) {
+        direction: ltr;
+        font-language-override: "PIL";
+        /* font-family: var(--notosans-font), var(--notosans-baybayin-font), var(--notosans-hebrew-font); */ /* Force override */
+        font-synthesis: initial;
+      }
+      :lang(tbw-Tagb), :lang(bku-Buhd), :lang(hnn-Hano), :lang(tl-Tglg), :lang(tgl-Tglg)
+      /* :lang(*-Tagb), :lang(*-Buhd), :lang(*-Hano), :lang(*-Tglg) */
+      {
+        font-variant-east-asian: proportional-width;
+        font-style: normal;
+        font-synthesis: weight;
+      }
+    /* END: Catch all PH (original) scripts */
+
+    /* BGN: Catch all Greek langs and scripts */
+      :lang(el), :lang(gre), :lang(ell), /* Modern Greek */
+      :lang(el-Latn), :lang(gre-Latn), :lang(ell-Latn),
+      :lang(grc), /* Ancient Greek */
+      :lang(grc-Latn) {
+        direction: ltr;
+        /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+      }
+      :lang(el), :lang(gre), :lang(ell) /* Modern Greek */ {
+        font-language-override: "ELL";
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(el-Latn), :lang(gre-Latn), :lang(ell-Latn) {
+        font-synthesis: initial;
+      }
       :lang(grc) {
-      	font-style: normal;
-      	font-synthesis: weight;
+        font-style: normal;
+        font-synthesis: weight;
       }
       :lang(grc-Latn) {
-				font-synthesis: initial;
+        font-synthesis: initial;
       }
-		/* END: Catch all Greek langs and scripts */
+    /* END: Catch all Greek langs and scripts */
 
-		/* BGN: Catch all Hebrew langs and scripts */
-			:lang(he), :lang(heb),
-			:lang(hbo), :lang(hbo-Hebr) {
-				direction: rtl;
-				/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-style: normal;
-				font-synthesis: weight;
-			}
-			:lang(he), :lang(heb) {
-				font-language-override: "IWR";
-			}
-			:lang(he-Latn), :lang(heb-Latn),
-			:lang(hbo-Latn) {
-				direction: ltr;
-				/* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
-				font-synthesis: initial;
-			}
-		/* END: Catch all Hebrew langs and scripts */
+    /* BGN: Catch all Hebrew langs and scripts */
+      :lang(he), :lang(heb),
+      :lang(hbo), :lang(hbo-Hebr) {
+        direction: rtl;
+        /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-style: normal;
+        font-synthesis: weight;
+      }
+      :lang(he), :lang(heb) {
+        font-language-override: "IWR";
+      }
+      :lang(he-Latn), :lang(heb-Latn),
+      :lang(hbo-Latn) {
+        direction: ltr;
+        /* font-family: var(--notosans-font), var(--notosans-hebrew-font), var(--notosans-baybayin-font); */ /* Force override */
+        font-synthesis: initial;
+      }
+    /* END: Catch all Hebrew langs and scripts */
 
-		.reset-1_25em { /* e.g. use for -Tglg and -Hebr scripts when there are Latin-scripts within the same element */
-			font-size: 0.8em;
-		}
-	/* END: LANG */
+    .reset-1_25em { /* e.g. use for -Tglg and -Hebr scripts when there are Latin-scripts within the same element */
+      font-size: 0.8em;
+    }
+  /* END: LANG */
 
-	/**
-	 * Font classes for override, and in rare cases, to force the font to an element.
-	 *   Examples:
-	 *     1. Templates with explicit font-face for selected elements
-	 *     2. Header elements (<h1,2,3,4,5>) -- could be theme-based also
-	 *
-	 * Baybayin: Baybayin Modern club > Noto Sans Tagalog
-	 * Paleo Hebrew: Paleo Hebrew > Ancient Hebrew > Noto Sans Phoenician
-	 * Modern Hebrew: Modern Hebrew = Noto Sans Hebrew
-	 *
-	 * "direction" has to be added to cover all styling practices
-	**/
+  /**
+   * Font classes for override, and in rare cases, to force the font to an element.
+   *   Examples:
+   *     1. Templates with explicit font-face for selected elements
+   *     2. Header elements (<h1,2,3,4,5>) -- could be theme-based also
+   *
+   * Baybayin: Baybayin Modern club > Noto Sans Tagalog
+   * Paleo Hebrew: Paleo Hebrew > Ancient Hebrew > Noto Sans Phoenician
+   * Modern Hebrew: Modern Hebrew = Noto Sans Hebrew
+   *
+   * "direction" has to be added to cover all styling practices
+  **/
 
-		/* BGN: NotoSans */
-			.font-NotoSans, /* backwards compatibility because HTML selectors are case-sensitive */
-			.font-notosans {
-				font-family: var(--notosans-font);
-			}
-			.font-notoserif {
-				font-family: var(--notoserif-font);
-			}
-			.font-Baybayin-Tagbanwa-NotoSans, /* backwards compatibility */
-			.font-Baybayin-MangyanBuhid-NotoSans, /* backwards compatibility */
-			.font-Baybayin-MangyanHanunoo-NotoSans, /* backwards compatibility */
-			.font-Baybayin-Tagalog-NotoSans, /* backwards compatibility */
-			.font-baybayin-notosans {
-				direction: ltr;
-				font-family: var(--notosans-baybayin-font);
-			}
-			.font-Greek-Modern-NotoSans, /* backwards compatibility */
-			.font-Greek-Ancient-NotoSans, /* backwards compatibility */
-			.font-greek-notosans {
-				direction: ltr;
-				font-family: var(--notosans-font); /* Force override */
-			}
-			.font-greek-notoserif {
-				direction: ltr;
-				font-family: var(--notoserif-font); /* Force override */
-			}
-			.font-Hebrew-Modern-NotoSans, /* backwards compatibility */
-			.font-Hebrew-Phoenician-NotoSans, /* backwards compatibility */
-			.font-hebrew-notosans {
-				direction: rtl;
-				font-family: var(--notosans-hebrew-font); /* Force override */
-			}
-			.font-hebrew-notoserif { /* there is no Serif for Noto Sans Phoenician */
-				direction: rtl;
-				font-family: var(--notoserif-hebrew-font); /* Force override */
-			}
-		/* END: NotoSans */
+    /* BGN: NotoSans */
+      .font-NotoSans, /* backwards compatibility because HTML selectors are case-sensitive */
+      .font-notosans {
+        font-family: var(--notosans-font);
+      }
+      .font-notoserif {
+        font-family: var(--notoserif-font);
+      }
+      .font-Baybayin-Tagbanwa-NotoSans, /* backwards compatibility */
+      .font-Baybayin-MangyanBuhid-NotoSans, /* backwards compatibility */
+      .font-Baybayin-MangyanHanunoo-NotoSans, /* backwards compatibility */
+      .font-Baybayin-Tagalog-NotoSans, /* backwards compatibility */
+      .font-baybayin-notosans {
+        direction: ltr;
+        font-family: var(--notosans-baybayin-font);
+      }
+      .font-Greek-Modern-NotoSans, /* backwards compatibility */
+      .font-Greek-Ancient-NotoSans, /* backwards compatibility */
+      .font-greek-notosans {
+        direction: ltr;
+        font-family: var(--notosans-font); /* Force override */
+      }
+      .font-greek-notoserif {
+        direction: ltr;
+        font-family: var(--notoserif-font); /* Force override */
+      }
+      .font-Hebrew-Modern-NotoSans, /* backwards compatibility */
+      .font-Hebrew-Phoenician-NotoSans, /* backwards compatibility */
+      .font-hebrew-notosans {
+        direction: rtl;
+        font-family: var(--notosans-hebrew-font); /* Force override */
+      }
+      .font-hebrew-notoserif { /* there is no Serif for Noto Sans Phoenician */
+        direction: rtl;
+        font-family: var(--notoserif-hebrew-font); /* Force override */
+      }
+    /* END: NotoSans */
 
-		/* BGN: Custom + fallback_NotoSans */
-			.font-Baybayin-Tagbanwa-paninap {
-				direction: ltr;
-				font-family: "Baybayin-Tagbanwa-paninap", var(--notosans-baybayin-font);
-			}
-			.font-Baybayin-MangyanBuhid-Nordenx {
-				direction: ltr;
-				font-family: "Baybayin-MangyanBuhid-Nordenx", var(--notosans-baybayin-font);
-			}
-			.font-Baybayin-MangyanHanunoo-Habubrush-Nordenx {
-				direction: ltr;
-				font-family: "Baybayin-MangyanHanunoo-Hanubrush-Nordenx", var(--notosans-baybayin-font);
-			}
-			.font-Baybayin-Tagalog-ModernClub-Nordenx {
-				direction: ltr;
-				font-family: "Baybayin-Tagalog-ModernClub-Nordenx", var(--notosans-baybayin-font);
-			}
-			.font-Hebrew-Paleo-Gezer-Unicode {
-				direction: rtl;
-				font-family: "Hebrew-Paleo-Gezer-Unicode", var(--notosans-hebrew-font);
-			}
-			.font-Hebrew-Proto-Canaanite-Unicode {
-				direction: rtl;
-				font-family: "Hebrew-Proto-Canaanite-Unicode", "Hebrew-Paleo-Gezer-Unicode", var(--notosans-hebrew-font);
-			}
-		/* END: Custom + fallback_NotoSans */
+    /* BGN: Custom + fallback_NotoSans */
+      .font-Baybayin-Tagbanwa-paninap {
+        direction: ltr;
+        font-family: "Baybayin-Tagbanwa-paninap", var(--notosans-baybayin-font);
+      }
+      .font-Baybayin-MangyanBuhid-Nordenx {
+        direction: ltr;
+        font-family: "Baybayin-MangyanBuhid-Nordenx", var(--notosans-baybayin-font);
+      }
+      .font-Baybayin-MangyanHanunoo-Habubrush-Nordenx {
+        direction: ltr;
+        font-family: "Baybayin-MangyanHanunoo-Hanubrush-Nordenx", var(--notosans-baybayin-font);
+      }
+      .font-Baybayin-Tagalog-ModernClub-Nordenx {
+        direction: ltr;
+        font-family: "Baybayin-Tagalog-ModernClub-Nordenx", var(--notosans-baybayin-font);
+      }
+      .font-Hebrew-Paleo-Gezer-Unicode {
+        direction: rtl;
+        font-family: "Hebrew-Paleo-Gezer-Unicode", var(--notosans-hebrew-font);
+      }
+      .font-Hebrew-Proto-Canaanite-Unicode {
+        direction: rtl;
+        font-family: "Hebrew-Proto-Canaanite-Unicode", "Hebrew-Paleo-Gezer-Unicode", var(--notosans-hebrew-font);
+      }
+    /* END: Custom + fallback_NotoSans */
 
-		.font-Barabara-Unicode-paninap {
-			direction: ltr;
-			font-family: "Barabara-Unicode-paninap", fantasy;
-		}
+    .font-Barabara-Unicode-paninap {
+      direction: ltr;
+      font-family: "Barabara-Unicode-paninap", fantasy;
+    }
 
-	/* Unicode emoji */
-		/* We may need to add !important to guarantee default third-party theme styles won't affect our emojis. */
-		/*
-		html body [class^="smiley-" i], html body [class$="-smiley" i],
-		html body [class^="emoticon-" i], html body [class$="-emoticon" i],
-		html body [class^="emoji-" i], html body [class$="-emoji" i],
-		html body [class*="emoji-" i], html body [class*="-emoji" i],
-		*/
-		html body [class~="smiley" i],
-		html body [class~="emoticon" i],
-		html body [class~="emoji" i] {
-			display: inline-block;
-			height: 1em; /* Twemoji suggestion */
-			width: 1em; /* Twemoji suggestion */
-			margin: 0 .05em 0 .1em; /* Twemoji suggestion */
-			/* vertical-align: -0.1em; */ /* Twemoji suggestion */
-			vertical-align: initial;
-			font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
-			font-variant-emoji: emoji;
-			font-style: normal;
-			font-synthesis: none;
-			font-weight: normal;
-		}
-		html body .unicode_emoji { /* usage: <span class="unicode_emoji">emoji_here</span> */
-			font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
-			font-variant-emoji: emoji;
-			/* font-size: larger; */
-			font-style: normal;
-			font-synthesis: none;
-			font-weight: normal;
-		}
-		html body .unicode_emoji_test {
-			font-size: 2.5rem;
-		}
+    .ccicons {
+      direction: ltr;
+      font-family: "cc-icons", "creative_commons";
+    }
+
+    .large {
+      font-size: large;
+    }
+    .xlarge {
+      font-size: x-large;
+    }
+    .xxlarge {
+      font-size: xx-large;
+    }
+    .larger {
+      font-size: larger;
+    }
+
+  /* Unicode emoji */
+    /* We may need to add !important to guarantee default third-party theme styles won't affect our emojis. */
+    /*
+    html body [class^="smiley-" i], html body [class$="-smiley" i],
+    html body [class^="emoticon-" i], html body [class$="-emoticon" i],
+    html body [class^="emoji-" i], html body [class$="-emoji" i],
+    html body [class*="emoji-" i], html body [class*="-emoji" i],
+    */
+    html body [class~="smiley" i],
+    html body [class~="emoticon" i],
+    html body [class~="emoji" i] {
+      display: inline-block;
+      height: 1em; /* Twemoji suggestion */
+      width: 1em; /* Twemoji suggestion */
+      margin: 0 .05em 0 .1em; /* Twemoji suggestion */
+      /* vertical-align: -0.1em; */ /* Twemoji suggestion */
+      vertical-align: initial;
+      font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
+      font-variant-emoji: emoji;
+      font-style: normal;
+      font-synthesis: none;
+      font-weight: normal;
+    }
+    html body .unicode_emoji { /* usage: <span class="unicode_emoji">emoji_here</span> */
+      font-family: "Emoji-Twemoji-Color-SVGinOT", "Twitter Color Emoji", "Twemoji", var(--base-emoji-font);
+      font-variant-emoji: emoji;
+      /* font-size: larger; */
+      font-style: normal;
+      font-synthesis: none;
+      font-weight: normal;
+    }
+    html body .unicode_emoji_test {
+      font-size: 2.5rem;
+    }
 /***************
 ** END: FONTS **
 ***************/
