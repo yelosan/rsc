@@ -604,13 +604,13 @@
 
     /* BGN: Catch all PH (original) scripts */
       :lang(phi), :lang(fil),
-      :lang(tbw), :lang(bku), :lang(hnn), :lang(tl), :lang(tgl) {
+      :lang(tbw), :lang(bku), :lang(hnn), :lang(tl) {
         direction: ltr;
         font-language-override: "PIL";
         /* font-family: var(--notosans-font), var(--notosans-baybayin-font), var(--notosans-hebrew-font); */ /* Force override */
         font-synthesis: initial;
       }
-      :lang(tbw-Tagb), :lang(bku-Buhd), :lang(hnn-Hano), :lang(tl-Tglg), :lang(tgl-Tglg)
+      :lang(tbw-Tagb), :lang(bku-Buhd), :lang(hnn-Hano), :lang(tl-Tglg)
       /* :lang(*-Tagb), :lang(*-Buhd), :lang(*-Hano), :lang(*-Tglg) */
       {
         font-variant-east-asian: proportional-width;
