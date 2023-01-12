@@ -16,7 +16,7 @@
 ***/
 
 /***
-  * paninap-fonts.css Copyright © 2003-2021 JC John Sese Cuneta
+  * paninap-fonts.css Copyright © 2003-2023 JC John Sese Cuneta
   *
   * Licenses: [1] MIT/Expat License; [2] MPL v2.0; [3] LGPLv3
   *
@@ -372,6 +372,7 @@
               local("Twitter Color Emoji Regular"),
               local("Twitter Color Emoji SVGinOT"),
               local("TwitterColorEmojiSVGinOT"),
+              local("Twemoji"),
               url("../fonts/TwitterColorEmoji-SVGinOT.ttf") format("opentype");
         font-display: swap;
         font-stretch: normal;
