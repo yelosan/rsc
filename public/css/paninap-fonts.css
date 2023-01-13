@@ -9,14 +9,15 @@
   * Websites:
   *   * Profile: https://iam.youronly.one
   *   * YourOnly.One™: https://youronly.one
+  *   * Yelosan Publishing: https://yelosan.youronly.one
   *
   * Contact:
-  *   * Fediverse: https://quey.org/@techmagus | @techmagus@quey.org
-  *   * Facebook: https://fb.me/techmagus | https://m.me/techmagus
+  *   * Fediverse: https://c.im/@youronlyone | @youronlyone@c.im
+  *   * Facebook: https://fb.me/YourOnly.ONE.ofcl | https://m.me/YourOnly.ONE.ofcl
 ***/
 
 /***
-  * paninap-fonts.css Copyright © 2003-2023 JC John Sese Cuneta
+  * paninap-fonts.css Copyright © 2003-2023 JC John Sese Cuneta; Yelosan Publishing
   *
   * Licenses: [1] MIT/Expat License; [2] MPL v2.0; [3] LGPLv3
   *
@@ -160,19 +161,6 @@
   :dir(rtl) {
     direction: rtl;
   }
-  /* As of 2021-02-08: no longer needed, remove this in our file later
-  [dir="ltr"], [dir="rtl"]
-  :dir(ltr), :dir(rtl) {
-    unicode-bidi: -webkit-isolate;
-    unicode-bidi: -moz-isolate;
-    unicode-bidi: isolate;
-  }
-  bdo[dir="ltr"], bdo[dir="rtl"],
-  :dir(ltr), :dir(rtl) {
-    unicode-bidi: -moz-isolate-override;
-    unicode-bidi: isolate-override;
-  }
-  */
 /***************
 ** END: SHIMS **
 ***************/
@@ -460,7 +448,7 @@
               url("../fonts/barabara-unicode-webfont.ttf") format("opentype");
         font-display: swap;
       }
-    /* BGN: [Custom] Barabara-Unicode-paninap */
+    /* END: [Custom] Barabara-Unicode-paninap */
   /* END: RARELY USED */
 
 
@@ -493,7 +481,7 @@
       *
       * Unfortunately we have to do this because browsers can not auto-detect the appropriate :lang of a script.
       *
-      * This shows us that it is a bad idea to add font-family in the :lang() levelas it will override the font selection
+      * This shows us that it is a bad idea to add font-family in the :lang() level as it will override the font selection
       *   if there are languages without an explicit lang="" attribute.
       *
       * Since there are sections that we can not add an explicit lang="" attribute without major changes in the code,
